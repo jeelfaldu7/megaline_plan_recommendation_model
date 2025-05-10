@@ -21,6 +21,16 @@ Each record in the dataset represents a subscriber's monthly behavior, with the 
   - `mb_used` — Internet traffic used (MB)
   - `is_ultra` — Target variable (1 if the user is on the Ultra plan, 0 for Smart)
 
+## 🔍 Model Development
+The project explored several classification models including:
+  - Decision Tree
+  - Random Forest
+  - Logistic Regression
+Hyperparameters were tuned using validation accuracy as the main metric. The model with the best balance of performance and interpretability was selected.
+
+## ✅ Results
+The best-performing model is Random Forest Classifier which achieved an accuracy of 0.78 on the test set, exceeding the 0.75 threshold.
+
 ## ⚙️ Installation
 1. Clone the repository:
    ```bash
@@ -38,16 +48,6 @@ Run the project script to:
   - Split it into training, validation, and test sets
   - Train several classification models
   - Evaluate their performance
-
-## 🔍 Model Development
-The project explored several classification models including:
-  - Decision Tree
-  - Random Forest
-  - Logistic Regression
-Hyperparameters were tuned using validation accuracy as the main metric. The model with the best balance of performance and interpretability was selected.
-
-## ✅ Results
-The best-performing model is Random Forest Classifier which achieved an accuracy of 0.78 on the test set, exceeding the 0.75 threshold.
 
 ## 📚 Lessons Learned
   - Feature scaling wasn’t needed for every model—especially for tree-based models like decision trees.
