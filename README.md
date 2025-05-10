@@ -56,4 +56,4 @@ Run the project script to:
 
 ## 🤝 Credits
 This project was created as part of the TripleTen Data Science program - Introduction to Machine Learning course. Special thanks to:
-TripleTen instructors and peers for ongoing support and feedback
+  - TripleTen instructors and peers for ongoing support and feedback
